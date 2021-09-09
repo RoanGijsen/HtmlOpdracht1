@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+</head>
+
+
+<body>
+
+hallo of doei: <input id="hallo of doei" type="text"/>
+<button id="Gedag" onclick="gedag()">Gedag</button>
+
+</body>
+</html>
+
+<script>
+function gedag()
+{
+    var h = document.getElementById('hallo of doei').value;
+    if (h == "hallo" || h == "Hallo")
+    {
+        alert("Welkom");
+    }
+    else if (h === 'doei' || h === 'Doei')
+    {
+        alert("Tot de volgende keer!");
+    }
+    else
+    {
+        alert("Dat werd niet gevraagd");
+    }
+}
+
+</script>
